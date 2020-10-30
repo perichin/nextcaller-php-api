@@ -1,5 +1,5 @@
 {
   "require": {
-    "nextcaller/nextcaller-php-api": "dev-master"
+    "perichin/nextcaller-php-api": "dev-master"
   }
 }

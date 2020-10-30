@@ -2,7 +2,7 @@ Nextcaller php API
 ================================================
 
 
-[![Build Status](https://travis-ci.org/Nextcaller/nextcaller-php-api.svg?branch=master)](https://travis-ci.org/Nextcaller/nextcaller-php-api)
+[![Build Status](https://travis-ci.org/perichin/nextcaller-php-api.svg?branch=master)](https://travis-ci.org/perichin/nextcaller-php-api)
 
 A PHP wrapper around the Nextcaller API.
 
@@ -28,7 +28,7 @@ Require Nextcaller in your `composer.json`:
 ```javascript
 {
   "require": {
-     "nextcaller/nextcaller-php-api": "dev-master"
+     "perichin/nextcaller-php-api": "dev-master"
   }
 }
 ```
@@ -238,13 +238,13 @@ Parameters:
 $platformUsername - Platform username.
 $data - Data for update.
 
-## Errors handling 
+## Errors handling
 
 ### BadResponseException ###
 
 In case of an incorrect answer received lib throws \NextCaller\Exception\BadResponseException.
-Error data can be access with getError() method. 
-Original request and response can be access with getRequest() and getResponse methods. 
+Error data can be access with getError() method.
+Original request and response can be access with getRequest() and getResponse methods.
 ```php
 <?php
 try {
@@ -256,12 +256,12 @@ try {
     $request = $e->getRequest();
     $response = $e->getResponse();
 }
-``` 
+```
 
 ### FormatException ###
 
 In case of an incorrect answer received and can't be parsed lib throws \NextCaller\Exception\FormatException.
-Original request and response can be access with getRequest() and getResponse methods. 
+Original request and response can be access with getRequest() and getResponse methods.
 ```php
 <?php
 try {

@@ -1,5 +1,5 @@
 {
-    "name": "nextcaller/nextcaller-php-api",
+    "name": "perichin/nextcaller-php-api",
     "description": "Client for Next Caller API",
     "type": "library",
     "version": "1.0.0",
